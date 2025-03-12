@@ -2,11 +2,19 @@ from selenium import webdriver
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.common.keys import Keys
 import time
+import platform
+
+time.sleep(2)
 
 # Path ke Microsoft Edge WebDriver
-# driver_path = "C:/Users/tyradi/Documents/Odoo16/server/custom/cendana/simrs/v16_simrs_mujirahayu/test/msedgedriver.exe" # Untuk Windows
-driver_path = "./edgedriver_linux64/msedgedriver" # Untuk Linux
-
+os_name = platform.system()
+driver_path = ""
+if os_name == 'Windows':
+    driver_path = "./msedgedriver.exe" # Untuk Windows
+elif os_name == 'Linux':
+    driver_path = "./edgedriver_linux64/msedgedriver" # Untuk Linux
+elif os_name == 'Darwin':
+    driver_path = ""
 
 # Setup Service untuk Microsoft Edge WebDriver
 service = Service(driver_path)
