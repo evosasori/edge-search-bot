@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  selenium-edge:
+    image: selenium/standalone-edge:latest
+    container_name: selenium_edge
+    ports:
+      - "4444:4444"  # Selenium WebDriver port
+      - "7900:7900"  # VNC (optional - for viewing browser via VNC)
+    shm_size: 2gb  # Avoid crashes with large pages
