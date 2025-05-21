@@ -2,24 +2,24 @@ import random
 
 # Daftar kata kerja, kata benda, dan pelengkap untuk membentuk pencarian
 kata_kerja = [
-    "cara membuat", "tutorial", "tips untuk", "panduan", "proses pembuatan",
-    "metode", "langkah-langkah", "petunjuk", "teknik", "resep untuk",
-    "rahasia membuat", "bagaimana cara", "strategi", "trik membuat", "sistem"
+    "how to make", "guide", "tips for", "introduction to", "process of making",
+    "method", "steps", "instructions", "techniques", "recipe for",
+    "secrets to making", "how do you", "strategy", "tricks to make", "system"
 ]
 
 kata_benda = [
-    "layangan", "kue", "meja", "kandang ayam", "aplikasi",
-    "taman", "website", "kerajinan tangan", "bisnis online", "makanan sehat",
-    "tas rajut", "komposter", "hidroponik", "buku digital", "lampu hias",
-    "mainan edukasi", "perangkap nyamuk", "alat musik", "boneka", "video tutorial"
+    "birdhouse", "online course", "handmade craft", "garden decoration", "blog",
+    "photography", "social media", "digital marketing", "web development", "cooking",
+    "yoga", "fitness", "mental health", "travel", "language learning", "personal finance",
+    "dog training", "cat grooming", "home cleaning", "time management", "self improvement"
 ]
 
 pelengkap = [
-    "dari bambu", "yang mudah", "untuk pemula", "dengan cepat", "di rumah",
-    "yang menguntungkan", "tanpa modal besar", "dalam waktu singkat", "dengan bahan bekas",
-    "secara otomatis", "yang ramah lingkungan", "kekinian", "yang tahan lama",
-    "yang menarik", "untuk bisnis", "dengan bahan alami", "yang praktis", "untuk anak",
-    "hemat biaya", "yang kreatif"
+    "with recycled materials", "in a sustainable way", "for beginners", "quickly at home",
+    "that is profitable", "without a large investment", "in a short period", "with natural ingredients",
+    "automatically", "that is eco-friendly", "trendy", "that is durable",
+    "that is appealing", "for business", "with organic materials", "that is practical", "for kids",
+    "cost-effective", "that is innovative"
 ]
 
 # Fungsi untuk membuat satu pencarian random
